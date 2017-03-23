@@ -24,7 +24,7 @@ img {
 
 center {
   width: 100%;
-  min-width: 580px; }
+  min-width: 600px; }
 
 a img {
   border: none; }
@@ -52,16 +52,16 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #f3f3f3; } }
+    background: #fefefe; } }
 
 table.body {
-  background: #f3f3f3;
+  background: #fefefe;
   height: 100%;
   width: 100%; }
 
 table.container {
   background: #fefefe;
-  width: 580px;
+  width: 600px;
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit; }
@@ -95,7 +95,7 @@ th.columns table:not(.button) {
   width: 100%; }
 
 th.large-3 {
-  width: 129px;
+  width: 134px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -106,7 +106,7 @@ th.large-3.last {
   padding-right: 16px; }
 
 th.large-4 {
-  width: 177.33333px;
+  width: 184px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -117,10 +117,10 @@ th.large-4.last {
   padding-right: 16px; }
 
 th.large-4 center {
-  min-width: 145.33333px; }
+  min-width: 152px; }
 
 th.large-5 {
-  width: 225.66667px;
+  width: 234px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -128,10 +128,10 @@ th.large-5.last {
   padding-right: 16px; }
 
 th.large-5 center {
-  min-width: 193.66667px; }
+  min-width: 202px; }
 
 th.large-6 {
-  width: 274px;
+  width: 284px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -144,20 +144,20 @@ th.large-6.last {
 .collapse > tbody > tr > th.large-6 {
   padding-right: 0;
   padding-left: 0;
-  width: 290px; }
+  width: 300px; }
 
 .collapse th.large-6.first,
 .collapse th.large-6.last {
-  width: 298px; }
+  width: 308px; }
 
 th.large-6 center {
-  min-width: 242px; }
+  min-width: 252px; }
 
 .body .columns th.large-6 {
   width: 50%; }
 
 th.large-7 {
-  width: 322.33333px;
+  width: 334px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -165,10 +165,10 @@ th.large-7.first {
   padding-left: 16px; }
 
 th.large-7 center {
-  min-width: 290.33333px; }
+  min-width: 302px; }
 
 th.large-8 {
-  width: 370.66667px;
+  width: 384px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -179,7 +179,7 @@ th.large-8.last {
   padding-right: 16px; }
 
 th.large-12 {
-  width: 564px;
+  width: 584px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -192,14 +192,14 @@ th.large-12.last {
 .collapse > tbody > tr > th.large-12 {
   padding-right: 0;
   padding-left: 0;
-  width: 580px; }
+  width: 600px; }
 
 .collapse th.large-12.first,
 .collapse th.large-12.last {
-  width: 588px; }
+  width: 608px; }
 
 th.large-12 center {
-  min-width: 532px; }
+  min-width: 552px; }
 
 td.expander,
 th.expander {
@@ -217,11 +217,13 @@ h5.text-center,
 p.text-center {
   text-align: center; }
 
-td.text-right,
+p.text-left {
+  text-align: left; }
+
 p.text-right {
   text-align: right; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 616px) {
   .small-float-center {
     margin: 0 auto !important;
     float: none !important;
@@ -308,8 +310,8 @@ p {
     line-height: 1.6; }
 
 small {
-  font-size: 80%;
-  color: #cacaca; }
+  font-size: 90%;
+  color: #808080; }
 
 a {
   color: #2199e8;
@@ -326,7 +328,7 @@ span.preheader {
   visibility: hidden;
   mso-hide: all !important;
   font-size: 1px;
-  color: #f3f3f3;
+  color: #fefefe;
   line-height: 1px;
   max-height: 0px;
   max-width: 0px;
@@ -445,7 +447,7 @@ th.callout-inner {
     color: #0a0a0a; }
 
 table.menu {
-  width: 580px; }
+  width: 600px; }
   table.menu th.menu-item {
     padding: 10px;
     padding-right: 10px; }
@@ -465,7 +467,7 @@ table.menu.text-center a {
 .menu[align="center"] {
   width: auto !important; }
 
-@media only screen and (max-width: 596px) {
+@media only screen and (max-width: 616px) {
   table.body img {
     width: auto;
     height: auto; }
@@ -557,7 +559,7 @@ table.button.google table td {
   font-size: 16px; }
 
 .brown-text {
-  color: #6e5608; }
+  color: #6e5608 !important; }
 
 a {
   color: inherit; }
@@ -571,11 +573,14 @@ a {
   width: 87.33%; }
 
 .footer-black {
-  background-color: #333333;
-  color: #ffffff !important; }
+  background-color: #333333 !important;
+  height: 330px; }
 
 .text-white {
   color: #ffffff !important; }
 
 .padding-img {
   padding-bottom: 40px; }
+
+.content {
+  width: 476px !important; }
