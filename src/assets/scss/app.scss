@@ -1,0 +1,40 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.top-row {
+  background-color: #fffae9;
+  border: 1px solid #ffde70;
+  color: #6e5608;
+  line-height: 40px;
+  font-size: 16px;
+}
+.brown-text {
+  color: #6e5608}
+
+a {
+  color: inherit;
+}
+.emph_bottom {
+  border-bottom: 1px dashed #000000
+}
+
+.link {
+  height: 56px;
+  border: 2px solid #fcda5b;
+  width: 87.33%;
+}
+
+.footer-black {
+  background-color: #333333 ;
+  color: #ffffff !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.padding-img {
+  padding-bottom: 40px ;
+}
