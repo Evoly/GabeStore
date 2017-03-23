@@ -11,7 +11,7 @@
   font-size: 16px;
 }
 .brown-text {
-  color: #6e5608}
+  color: #6e5608 !important;}
 
 a {
   color: inherit;
@@ -27,8 +27,8 @@ a {
 }
 
 .footer-black {
-  background-color: #333333 ;
-  color: #ffffff !important;
+  background-color: #333333 !important ;
+  height: 330px;
 }
 
 .text-white {
@@ -37,4 +37,8 @@ a {
 
 .padding-img {
   padding-bottom: 40px ;
+}
+
+.padding-img-bottom {
+  padding-left: 10px;
 }
