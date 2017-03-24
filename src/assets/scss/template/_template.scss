@@ -15,7 +15,12 @@ html,
 
 .body-drip {
   border-top: 5px solid #fcda5b;
+
 }
+.no-padding {
+  width: 600px !important;
+  min-width: 600px !important;
+  padding: 0 !important;}
 
 // Full Width Headers
 .header {
@@ -32,13 +37,20 @@ html,
 }
 
 .header .wrapper-inner {
-  padding: 20px;
+  padding: 10px;
 }
+.wrapper-inner {padding: 0 48px 0 48px;}
 
 .header .container {
   background: transparent;
 }
-
+// .set-right-btn{
+//   text-align:right;
+//   table{
+//   	display:inline;
+//     text-align:right;
+//   }
+// }
 // Social Media
 // table.button.facebook table td {
 //   background: #3B5998 !important;

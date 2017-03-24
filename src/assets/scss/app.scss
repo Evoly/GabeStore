@@ -10,9 +10,7 @@
   line-height: 40px;
   font-size: 16px;
 }
-.content {
-  max-width: 475px !important;
-}
+
 .brown-text {
   color: #6e5608 !important;}
 
@@ -24,10 +22,11 @@ a {
 }
 
 .link {
-  height: 56px;
+  height: 24px;
   border: 2px solid #fcda5b;
-  width: 87.33%;
   font-size: 15px;
+  padding: 17px 0px 15px 25px ;
+  width: 96.5%;
 }
 
 .footer-black {
@@ -36,11 +35,11 @@ a {
 }
 
 .text-white {
-    color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .padding-img {
-  padding-bottom: 40px ;
+  padding-bottom: 30px ;
 }
 
 .padding-img-bottom {
@@ -50,17 +49,26 @@ a {
   min-width: 100px !important;
   width: 125px;
 }
-  .btn {
-    min-width: 100px !important;
-    width: 225px;
+
+.btn {
+  min-width: 100px !important;
+  width: 225px;
 }
-  .btn-vk {
-    background-color: #4982ab !important;
-    color: #ffffff !important;
+button .btn-vk {
+  color: #ffffff !important;
 }
 
+.text-callout {
+  padding-left: 27px;
+  padding-right: 5px;
+  font-size: 16px;
+}
+
+h2 {
+  padding-top: 7px;
+}
+
+.text-justify {
+  text-align: justify;
+}
 // to do : check button color and fonts
-
-// .content {
-//   padding-left: 60px !important;
-// }
