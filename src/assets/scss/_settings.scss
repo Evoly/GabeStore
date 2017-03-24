@@ -27,7 +27,7 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 600px;
+$global-width: 590px;
 $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $white;
@@ -35,9 +35,10 @@ $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
-$global-rounded: 500px;
+$global-rounded: 200px;
 $global-breakpoint: $global-width + $global-gutter;
 $grey: #f9f9f9;
+$yellow: #ffc400;
 
 // 2. Grid
 // -------
@@ -97,9 +98,9 @@ $stat-font-size: 40px;
 
 $button-padding: (
   tiny: 4px 8px 4px 8px,
-  small: 5px 10px 5px 10px,
+  small: 6px 10px 5px 10px,
   default: 8px 16px 8px 16px,
-  large: 10px 20px 10px 20px,
+  large: 16px 20px 10px 20px,
 );
 $button-font-size: (
   tiny: 10px,
@@ -107,12 +108,12 @@ $button-font-size: (
   default: 16px,
   large: 20px,
 );
-$button-color: $white;
-$button-color-alt: $medium-gray;
-$button-font-weight: bold;
+$button-color: $black;
+$button-color-alt: $white;  // change to original
+$button-font-weight: normal;
 $button-margin: 0 0 $global-margin 0;
-$button-background: $primary-color;
-$button-border: 2px solid $button-background;
+$button-background: $yellow;
+// $button-border: 2px solid $button-background;
 $button-radius: $global-radius;
 $button-rounded: $global-rounded;
 

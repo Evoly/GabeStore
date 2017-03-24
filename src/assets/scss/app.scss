@@ -10,6 +10,9 @@
   line-height: 40px;
   font-size: 16px;
 }
+.content {
+  max-width: 475px !important;
+}
 .brown-text {
   color: #6e5608 !important;}
 
@@ -24,6 +27,7 @@ a {
   height: 56px;
   border: 2px solid #fcda5b;
   width: 87.33%;
+  font-size: 15px;
 }
 
 .footer-black {
@@ -42,6 +46,21 @@ a {
 .padding-img-bottom {
   padding-left: 10px;
 }
-.content {
-  width: 476px !important;
+.small-btn {
+  min-width: 100px !important;
+  width: 125px;
 }
+  .btn {
+    min-width: 100px !important;
+    width: 225px;
+}
+  .btn-vk {
+    background-color: #4982ab !important;
+    color: #ffffff !important;
+}
+
+// to do : check button color and fonts
+
+// .content {
+//   padding-left: 60px !important;
+// }

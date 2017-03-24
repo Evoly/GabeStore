@@ -24,7 +24,7 @@ img {
 
 center {
   width: 100%;
-  min-width: 600px; }
+  min-width: 590px; }
 
 a img {
   border: none; }
@@ -61,7 +61,7 @@ table.body {
 
 table.container {
   background: #fefefe;
-  width: 600px;
+  width: 590px;
   margin: 0 auto;
   Margin: 0 auto;
   text-align: inherit; }
@@ -95,7 +95,7 @@ th.columns table:not(.button) {
   width: 100%; }
 
 th.large-3 {
-  width: 134px;
+  width: 131.5px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -106,7 +106,7 @@ th.large-3.last {
   padding-right: 16px; }
 
 th.large-4 {
-  width: 184px;
+  width: 180.66667px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -117,10 +117,10 @@ th.large-4.last {
   padding-right: 16px; }
 
 th.large-4 center {
-  min-width: 152px; }
+  min-width: 148.66667px; }
 
 th.large-5 {
-  width: 234px;
+  width: 229.83333px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -128,10 +128,10 @@ th.large-5.last {
   padding-right: 16px; }
 
 th.large-5 center {
-  min-width: 202px; }
+  min-width: 197.83333px; }
 
 th.large-6 {
-  width: 284px;
+  width: 279px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -144,20 +144,20 @@ th.large-6.last {
 .collapse > tbody > tr > th.large-6 {
   padding-right: 0;
   padding-left: 0;
-  width: 300px; }
+  width: 295px; }
 
 .collapse th.large-6.first,
 .collapse th.large-6.last {
-  width: 308px; }
+  width: 303px; }
 
 th.large-6 center {
-  min-width: 252px; }
+  min-width: 247px; }
 
 .body .columns th.large-6 {
   width: 50%; }
 
 th.large-7 {
-  width: 334px;
+  width: 328.16667px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -165,10 +165,10 @@ th.large-7.first {
   padding-left: 16px; }
 
 th.large-7 center {
-  min-width: 302px; }
+  min-width: 296.16667px; }
 
 th.large-8 {
-  width: 384px;
+  width: 377.33333px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -179,7 +179,7 @@ th.large-8.last {
   padding-right: 16px; }
 
 th.large-12 {
-  width: 584px;
+  width: 574px;
   padding-left: 8px;
   padding-right: 8px; }
 
@@ -192,14 +192,14 @@ th.large-12.last {
 .collapse > tbody > tr > th.large-12 {
   padding-right: 0;
   padding-left: 0;
-  width: 600px; }
+  width: 590px; }
 
 .collapse th.large-12.first,
 .collapse th.large-12.last {
-  width: 608px; }
+  width: 598px; }
 
 th.large-12 center {
-  min-width: 552px; }
+  min-width: 542px; }
 
 td.expander,
 th.expander {
@@ -223,7 +223,7 @@ p.text-left {
 p.text-right {
   text-align: right; }
 
-@media only screen and (max-width: 616px) {
+@media only screen and (max-width: 606px) {
   .small-float-center {
     margin: 0 auto !important;
     float: none !important;
@@ -341,19 +341,22 @@ table.button {
   Margin: 0 0 16px 0; }
   table.button table td {
     text-align: left;
-    color: #fefefe;
-    background: #2199e8;
-    border: 2px solid #2199e8; }
+    color: #0a0a0a;
+    background: #ffc400;
+    border: 2px solid #ffc400; }
     table.button table td a {
       font-family: Arial, sans-serif;
       font-size: 16px;
-      font-weight: bold;
-      color: #fefefe;
+      font-weight: normal;
+      color: #0a0a0a;
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #2199e8;
+      border: 0 solid #ffc400;
       border-radius: 3px; }
+  table.button.rounded table td {
+    border-radius: 200px;
+    border: none; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
@@ -361,10 +364,10 @@ table.button table tr td a:visited,
 table.button.large:hover table tr td a,
 table.button.large:active table tr td a,
 table.button.large table tr td a:visited {
-  color: #fefefe; }
+  color: #0a0a0a; }
 
 table.button.large table a {
-  padding: 10px 20px 10px 20px;
+  padding: 16px 20px 10px 20px;
   font-size: 20px; }
 
 table.button.expand {
@@ -382,38 +385,38 @@ table.button.expand {
 table.button:hover table td,
 table.button:visited table td,
 table.button:active table td {
-  background: #147dc2;
-  color: #fefefe; }
+  background: #cc9d00;
+  color: #0a0a0a; }
 
 table.button:hover table a,
 table.button:visited table a,
 table.button:active table a {
-  border: 0 solid #147dc2; }
+  border: 0 solid #cc9d00; }
 
 table.button.secondary table td {
   background: #777777;
-  color: #fefefe;
+  color: #0a0a0a;
   border: 0px solid #777777; }
 
 table.button.secondary table a {
-  color: #fefefe;
+  color: #0a0a0a;
   border: 0 solid #777777; }
 
 table.button.secondary:hover table td {
   background: #919191;
-  color: #fefefe; }
+  color: #0a0a0a; }
 
 table.button.secondary:hover table a {
   border: 0 solid #919191; }
 
 table.button.secondary:hover table td a {
-  color: #fefefe; }
+  color: #0a0a0a; }
 
 table.button.secondary:active table td a {
-  color: #fefefe; }
+  color: #0a0a0a; }
 
 table.button.secondary table td a:visited {
-  color: #fefefe; }
+  color: #0a0a0a; }
 
 table.button.success table td {
   background: #3adb76;
@@ -447,7 +450,7 @@ th.callout-inner {
     color: #0a0a0a; }
 
 table.menu {
-  width: 600px; }
+  width: 590px; }
   table.menu th.menu-item {
     padding: 10px;
     padding-right: 10px; }
@@ -467,7 +470,7 @@ table.menu.text-center a {
 .menu[align="center"] {
   width: auto !important; }
 
-@media only screen and (max-width: 616px) {
+@media only screen and (max-width: 606px) {
   table.body img {
     width: auto;
     height: auto; }
@@ -536,18 +539,6 @@ html,
 .header .container {
   background: transparent; }
 
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998; }
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced; }
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39; }
-
 .wrapper.secondary {
   background: #f3f3f3; }
 
@@ -557,6 +548,9 @@ table.button.google table td {
   color: #6e5608;
   line-height: 40px;
   font-size: 16px; }
+
+.content {
+  max-width: 475px !important; }
 
 .brown-text {
   color: #6e5608 !important; }
@@ -570,7 +564,8 @@ a {
 .link {
   height: 56px;
   border: 2px solid #fcda5b;
-  width: 87.33%; }
+  width: 87.33%;
+  font-size: 15px; }
 
 .footer-black {
   background-color: #333333 !important;
@@ -582,5 +577,14 @@ a {
 .padding-img {
   padding-bottom: 40px; }
 
-.content {
-  width: 476px !important; }
+.small-btn {
+  min-width: 100px !important;
+  width: 125px; }
+
+.btn {
+  min-width: 100px !important;
+  width: 225px; }
+
+.btn-vk {
+  background-color: #4982ab !important;
+  color: #ffffff !important; }
