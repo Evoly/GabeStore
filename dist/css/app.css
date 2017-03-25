@@ -214,11 +214,17 @@ h2.text-center,
 h3.text-center,
 h4.text-center,
 h5.text-center,
-p.text-center {
+p.text-center,
+span.text-center {
   text-align: center; }
 
 p.text-right {
   text-align: right; }
+
+span.text-center {
+  display: block;
+  width: 100%;
+  text-align: center; }
 
 @media only screen and (max-width: 516px) {
   .small-float-center {
@@ -420,17 +426,17 @@ table.button.secondary table td a:visited {
   color: #0a0a0a; }
 
 table.button.success table td {
-  background: #3adb76;
-  border: 0px solid #3adb76; }
+  background: #fefefe;
+  border: 0px solid #fefefe; }
 
 table.button.success table a {
-  border: 0 solid #3adb76; }
+  border: 0 solid #fefefe; }
 
 table.button.success:hover table td {
-  background: #23bf5d; }
+  background: #e5e5e5; }
 
 table.button.success:hover table a {
-  border: 0 solid #23bf5d; }
+  border: 0 solid #e5e5e5; }
 
 table.callout {
   margin-bottom: 16px;
@@ -559,10 +565,10 @@ html,
   font-size: 16px; }
 
 .brown-text {
-  color: #6e5608 !important; }
+  color: #6e5608; }
 
 a {
-  color: inherit; }
+  color: #000000; }
 
 .emph_bottom {
   border-bottom: 1px dashed #000000; }
@@ -592,6 +598,9 @@ a {
   min-width: 100px !important;
   width: 225px; }
 
+.large {
+  margin-bottom: 5px !important; }
+
 .text-callout {
   padding-left: 27px;
   padding-right: 5px;
@@ -602,3 +611,6 @@ h2 {
 
 .text-justify {
   text-align: justify; }
+
+.footer-black h2 {
+  padding-top: 0px; }

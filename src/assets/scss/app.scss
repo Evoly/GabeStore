@@ -12,10 +12,11 @@
 }
 
 .brown-text {
-  color: #6e5608 !important;}
+  color: #6e5608 ;
+}
 
 a {
-  color: inherit;
+  color: #000000;
 }
 .emph_bottom {
   border-bottom: 1px dashed #000000
@@ -58,6 +59,9 @@ button .btn-vk {
   color: #ffffff !important;
 }
 
+.large {
+  margin-bottom: 5px !important;
+}
 .text-callout {
   padding-left: 27px;
   padding-right: 5px;
@@ -71,4 +75,11 @@ h2 {
 .text-justify {
   text-align: justify;
 }
-// to do : check button color and fonts
+
+.btn-footer {
+  background: #ffffff;
+}
+
+.footer-black h2 {
+  padding-top: 0px;
+}
