@@ -1,4 +1,60 @@
 @import 'settings';
 @import 'foundation-emails';
-
 @import 'template/template';
+
+.no-padding {
+  width: 600px !important;
+  min-width: 600px !important;
+   padding: 0 !important;
+  }
+
+.date {
+  font-size: 30px;
+  width: 100%;
+  line-height: 58px;
+  }
+.text-callout {
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 35px;
+    font-size: 16.5px;
+    line-height: 24px;
+    text-align: justify;
+  }
+.text-justify {
+  text-align: justify;
+}
+.columns .text-justify {
+  line-height: 25px;
+}
+//button
+
+.btn {
+  min-width: 100px !important;
+  width: 225px;
+}
+button .btn-vk {
+  color: #ffffff !important;
+}
+.text-white {
+  color: #ffffff !important;
+}
+
+//footer
+.footer-black {
+  background-color: #333333 !important ;
+  height: 330px;
+}
+.footer-black .text-white {
+  line-height: 1.4;
+}
+.footer-black h2 {
+  padding-top: 0px;
+}
+
+.footer-img {
+  padding-right: 18px !important;
+}
+.btn-footer {
+  background: #ffffff;
+}

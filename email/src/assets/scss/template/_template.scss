@@ -1,20 +1,17 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
-html, 
+html,
 .body {
   background: #f3f3f3 !important;
 }
-
 .container.header {
   background: #f3f3f3;
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
-}
+.body-drip { border-top: 5px solid #fcda5b;}
 
 // Full Width Headers
 .header {
@@ -33,10 +30,11 @@ html,
 .header .wrapper-inner {
   padding: 20px;
 }
-
+.wrapper-inner {padding: 0 60px 0 60px;}
 .header .container {
   background: transparent;
 }
+.wrapper {max-width: 580px !important;}
 
 // Social Media
 table.button.facebook table td {
