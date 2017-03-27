@@ -4,23 +4,16 @@
 // Body Styles
 body,
 html,
-.body {
-  background: #f3f3f3 !important;
+.body { background: #ffffff !important;}
 
-}
+.container.header { background: #ffffff;}
 
-.container.header {
-  background: #f3f3f3;
-}
+.body-drip { border-top: 5px solid #fcda5b;}
 
-.body-drip {
-  border-top: 5px solid #fcda5b;
-
-}
 .no-padding {
   width: 600px !important;
   min-width: 600px !important;
-  padding: 0 !important;}
+  }
 
 // Full Width Headers
 .header {
@@ -39,34 +32,10 @@ html,
 .header .wrapper-inner {
   padding: 10px;
 }
-.wrapper-inner {padding: 0 48px 0 48px;}
+.wrapper-inner {padding: 0 60px 0 60px;}
 
 .header .container {
   background: transparent;
 }
-// .set-right-btn{
-//   text-align:right;
-//   table{
-//   	display:inline;
-//     text-align:right;
-//   }
-// }
-// Social Media
-// table.button.facebook table td {
-//   background: #3B5998 !important;
-//   border-color: #3B5998;
-// }
-//
-// table.button.twitter table td {
-//   background: #1daced !important;
-//   border-color: #1daced;
-// }
-//
-// table.button.google table td {
-//   background: #DB4A39 !important;
-//   border-color: #DB4A39;
-// }
 
-.wrapper.secondary {
-  background: #f3f3f3;
-}
+.wrapper.secondary { background: #f3f3f3;}

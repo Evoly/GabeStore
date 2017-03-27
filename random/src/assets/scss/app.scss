@@ -3,33 +3,43 @@
 
 @import 'template/template';
 
-.top-row {
-  background-color: #fffae9;
-  border: 1px solid #ffde70;
-  color: #6e5608;
-  line-height: 40px;
-  font-size: 16px;
-}
+// .top-row {
+//   background-color: #fffae9;
+//   border: 1px solid #ffde70;
+//   color: #6e5608;
+//   line-height: 40px;
+//   font-size: 16px;
+// }
 
-.brown-text {
-  color: #6e5608 ;
-}
-
+// .brown-text {
+//   color: #6e5608 ;
+// }
 a {
-  color: #000000;
+  color: #0f0f0f !important;
 }
 .emph_bottom {
   border-bottom: 1px dashed #000000
 }
-
+.wrapper-link {
+  table-layout: fixed;
+}
 .link {
   height: 24px;
   border: 2px solid #fcda5b;
   font-size: 15px;
-  padding: 17px 0px 15px 25px ;
-  width: 96.5%;
-}
+  padding: 17px 10px 15px 25px ;
+  width: 440px;
+  display: inline-block;
+  }
 
+//link
+
+.test {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  }
 .footer-black {
   background-color: #333333 !important ;
   height: 330px;
@@ -40,15 +50,15 @@ a {
 }
 
 .padding-img {
-  padding-bottom: 30px ;
+  padding-bottom: 30px !important;
 }
 
 .padding-img-bottom {
   padding-left: 10px;
 }
 .small-btn {
-  min-width: 100px !important;
-  width: 125px;
+  min-width: 80px !important;
+  width: 105px;
 }
 
 .btn {
@@ -64,7 +74,7 @@ button .btn-vk {
 }
 .text-callout {
   padding-left: 27px;
-  padding-right: 5px;
+  padding-right: 4px;
   font-size: 16px;
 }
 
@@ -82,4 +92,10 @@ h2 {
 
 .footer-black h2 {
   padding-top: 0px;
+}
+.footer-img {
+  padding-right: 10px !important;
+}
+.link-center {
+  text-align: center;
 }
