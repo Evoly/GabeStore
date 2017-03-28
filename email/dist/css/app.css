@@ -60,7 +60,7 @@ table.body {
   width: 100%; }
 
 table.container {
-  background: #fefefe;
+  background: #ffffff;
   width: 480px;
   margin: 0 auto;
   Margin: 0 auto;
@@ -127,13 +127,13 @@ th.expander {
 td.text-center,
 h1.text-center,
 h2.text-center,
-p.text-center,
-span.text-center {
+p.text-center {
   text-align: center; }
 
-span.text-center {
-  display: block;
-  width: 100%;
+img.float-center {
+  margin: 0 auto;
+  Margin: 0 auto;
+  float: none;
   text-align: center; }
 
 table.float-center {
@@ -328,7 +328,7 @@ th.callout-inner {
 body,
 html,
 .body {
-  background: #f3f3f3 !important; }
+  background: #ffffff !important; }
 
 .body-drip {
   border-top: 5px solid #fcda5b; }
@@ -369,6 +369,10 @@ html,
 
 .text-white {
   color: #ffffff !important; }
+
+.btn-padding {
+  padding-left: 0 !important;
+  padding-right: 20px !important; }
 
 .footer-black {
   background-color: #333333 !important;

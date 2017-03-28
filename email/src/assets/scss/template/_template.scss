@@ -5,30 +5,22 @@
 body,
 html,
 .body {
-  background: #f3f3f3 !important;
+  background: #ffffff !important;
 }
 .container.header {
   background: #f3f3f3;
 }
-
 .body-drip { border-top: 5px solid #fcda5b;}
 
 // Full Width Headers
-.header {
-  background: #8a8a8a;
-}
+.header { background: #8a8a8a;}
 
 .header .columns {
   padding-bottom: 0;
 }
-
 .header p {
-  color: #fff;
+  color: #ffffff;
   padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
 }
 .wrapper-inner {padding: 0 60px 0 60px;}
 .header .container {
@@ -41,7 +33,6 @@ table.button.facebook table td {
   background: #3B5998 !important;
   border-color: #3B5998;
 }
-
 table.button.twitter table td {
   background: #1daced !important;
   border-color: #1daced;
