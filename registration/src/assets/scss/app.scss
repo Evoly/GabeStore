@@ -73,13 +73,16 @@ h1, h2 {
 
 .borders {
   border:1px solid #e2e2e2;
-  background-color:#f9f9f9;
 }
 .top-border { border-top:1px solid #e2e2e2;}
 .right-border {border-right:1px solid #e2e2e2;}
 
 .padding-inner-top {padding-top: 12px;}
 .padding-inner-bottom {padding-bottom: 5px;}
+
+.alert {
+   background-color:#f9f9f9 !important;
+}
 
 //footer
 .footer-black {
