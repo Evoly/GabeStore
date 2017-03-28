@@ -5,13 +5,8 @@
 body,
 html,
 .body {
-  background: #f3f3f3 !important;
+  background: #ffffff !important;
 }
-
-.container.header {
-  background: #f3f3f3;
-}
-
 .body-drip { border-top: 5px solid #fcda5b;}
 
 // Full Width Headers
@@ -32,6 +27,8 @@ html,
   padding: 20px;
 }
 .wrapper-inner {padding: 0 60px 0 60px;}
+.wrapper {max-width: 600px;}
+
 .header .container {
   background: transparent;
 }

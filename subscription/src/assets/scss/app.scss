@@ -5,21 +5,51 @@
 .no-padding {
   width: 600px !important;
   min-width: 600px !important;
-   padding: 0 !important;
+  padding: 0 !important;
   }
-
 .font-16 {
   font-size: 16px;
 }
+.hr {border-top: 1px solid #e2e2e2;}
 
 //button
-// .btn-play {
-//   width: 42% !important;
-// }
-// .btn-sub {
-//   width: 52% !important;
-// }
-
+.btn-play {
+  width: 140px !important;
+  padding-right: 25px;
+}
+.btn-play-inner {
+    border-radius: 300px;
+    background-color: $yellow;
+}
+.btn-link {
+  line-height: 46px;
+}
+.btn-sub {
+  width: 170px !important;
+  
+}
+.btn-sub-inner {
+  width: 100% !important;
+  border: 1px solid  #e2e2e2;
+  line-height: 46px;
+  border-radius: 100px;
+  background-color:$white;
+}
+.btn-sub-inner a {
+  color:#e2e2e2 !important;
+}
+.btn-play-inner a , .btn-sub-inner a {
+  display: block;
+  text-align: center;
+}
+.btn {
+  min-width: 100px !important;
+  width: 225px;
+}
+.small-btn {
+  min-width: 100px !important;
+  width: 135px;
+}
 button .btn-vk {
   color: #ffffff !important;
 }
@@ -27,22 +57,33 @@ button .btn-vk {
   color: #ffffff !important;
 }
 
+//callout
+
+.borders {
+  border:1px solid #e2e2e2;
+  background-color:#f9f9f9;
+}
+.top-border { border-top:1px solid #e2e2e2;}
+.right-border {border-right:1px solid #e2e2e2;}
+
+.padding-inner-top {padding-top: 12px;}
+.padding-inner-bottom {padding-bottom: 5px;}
 
 //footer
 .footer-black {
   background-color: #333333 !important ;
   height: 200px;
 }
-.footer-black .text-white {
-  line-height: 1.4;
+.footer-black a {
+  line-height: 1.5;
 }
-.footer-black h2 {
-  padding-top: 0px;
-}
-
-.footer-img {
-  padding-right: 18px !important;
+.footer-black p {
+  padding-top: 8px;
 }
 .btn-footer {
   background: #ffffff;
+}
+.btn-padding {
+  padding-left: 0 !important;
+  padding-right: 20px !important ;
 }

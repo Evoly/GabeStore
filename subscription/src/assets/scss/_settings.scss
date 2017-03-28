@@ -17,7 +17,7 @@
 // ---------
 
 $primary-color: #2199e8;
-$secondary-color: #777777;
+$secondary-color: #5e81a8;;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
@@ -25,15 +25,15 @@ $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #ffffff;
 $pre-color: #ff6908;
-$global-width: 460px;
+$global-width: 440px;
 $global-width-small: 95%;
-$global-gutter: 3px;
-$body-background: $light-gray;
+$global-gutter: 0px;
+$body-background: $white;
 $container-background: $white;
-$global-padding: 3px;
-$global-margin: 3px;
+$global-padding: 0px;
+$global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 200px;
 $global-breakpoint: $global-width + $global-gutter;
@@ -72,7 +72,7 @@ $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$paragraph-margin-bottom: 20px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -87,7 +87,7 @@ $hr-width: $global-width;
 $hr-border: 1px solid $black;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
-$anchor-color: $primary-color;
+$anchor-color: $black;
 $anchor-color-visited: $anchor-color;
 $anchor-color-hover: darken($primary-color, 10%);
 $anchor-color-active: $anchor-color-hover;
@@ -99,7 +99,7 @@ $stat-font-size: 40px;
 $button-padding: (
   tiny: 4px 8px 4px 8px,
   small:  4px 10px 4px 10px,
-  default: 13px 20px 13px 20px,
+  default: 13px 21px 13px 21px,
   large: 15px 10px 15px 10px,
 );
 $button-font-size: (
@@ -120,11 +120,11 @@ $button-rounded: $global-rounded;
 // 6. Callout
 // ----------
 
-$callout-background: $white;
+$callout-background: $grey;
 $callout-background-fade: 85%;
 $callout-padding: 10px;
 $callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
+$callout-border: none;
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);
