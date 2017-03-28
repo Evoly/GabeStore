@@ -3,17 +3,6 @@
 
 @import 'template/template';
 
-// .top-row {
-//   background-color: #fffae9;
-//   border: 1px solid #ffde70;
-//   color: #6e5608;
-//   line-height: 40px;
-//   font-size: 16px;
-// }
-
-// .brown-text {
-//   color: #6e5608 ;
-// }
 a {
   color: #0f0f0f !important;
 }
@@ -50,17 +39,12 @@ a {
 }
 
 .padding-img {
-  padding-bottom: 30px !important;
-}
-
-.padding-img-bottom {
-  padding-left: 10px;
+  padding-bottom: 20px !important;
 }
 .small-btn {
   min-width: 80px !important;
   width: 105px;
 }
-
 .btn {
   min-width: 100px !important;
   width: 225px;
@@ -68,7 +52,7 @@ a {
 button .btn-vk {
   color: #ffffff !important;
 }
-
+.btn-padding {padding-right: 20px !important ;}
 .large {
   margin-bottom: 5px !important;
 }
@@ -89,7 +73,6 @@ h2 {
 .btn-footer {
   background: #ffffff;
 }
-
 .footer-black h2 {
   padding-top: 0px;
 }

@@ -381,7 +381,7 @@ table.button.small table a {
   font-size: 16px; }
 
 table.button.large table a {
-  padding: 12px 10px 12px 10px;
+  padding: 15px 10px 15px 10px;
   font-size: 20px; }
 
 table.button.expand {
@@ -539,7 +539,8 @@ html,
 
 .no-padding {
   width: 600px !important;
-  min-width: 600px !important; }
+  min-width: 600px !important;
+  padding: 0 !important; }
 
 .header {
   background: #8a8a8a; }
@@ -590,7 +591,7 @@ a {
   color: #ffffff !important; }
 
 .padding-img {
-  padding-bottom: 30px !important; }
+  padding-bottom: 20px !important; }
 
 .small-btn {
   min-width: 80px !important;
@@ -599,6 +600,9 @@ a {
 .btn {
   min-width: 100px !important;
   width: 225px; }
+
+.btn-padding {
+  padding-right: 20px !important; }
 
 .large {
   margin-bottom: 5px !important; }
@@ -618,7 +622,7 @@ h2 {
   padding-top: 0px; }
 
 .footer-img {
-  padding-right: 10px !important; }
+  padding-right: 18px !important; }
 
 .link-center {
   text-align: center; }
