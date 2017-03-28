@@ -12,73 +12,93 @@ a {
 .wrapper-link {
   table-layout: fixed;
 }
-.link {
-  height: 24px;
-  border: 2px solid #fcda5b;
-  font-size: 15px;
-  padding: 17px 10px 15px 25px ;
-  width: 440px;
-  display: inline-block;
-  }
 
-//link
-
-.test {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-  }
-.footer-black {
-  background-color: #333333 !important ;
-  height: 330px;
+//registration
+.avtorisation {
+  background-color: #f1f1f1;
+  width: 330px !important;
 }
-
+.avtorisation p {
+  line-height: 50px !important;
+  font-size: 16px;
+  margin-bottom: 0px !important;
+  padding-left: 25px;
+}
+.warning p {
+  color: #6e5608;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
 .text-white {
   color: #ffffff !important;
 }
-
 .padding-img {
-  padding-bottom: 20px !important;
-}
-.small-btn {
-  min-width: 80px !important;
-  width: 105px;
+  padding-left: 20px !important;
 }
 .btn {
   min-width: 100px !important;
   width: 225px;
 }
+.small-btn {
+    min-width: 100px !important;
+    width: 135px;
+}
 button .btn-vk {
   color: #ffffff !important;
 }
-.btn-padding {padding-right: 20px !important ;}
+.btn-padding {padding-right: 10px !important ;}
 .large {
   margin-bottom: 5px !important;
 }
 .text-callout {
   padding-left: 27px;
-  padding-right: 4px;
+  padding-right: 15px;
   font-size: 16px;
+  line-height: 28px;
 }
 
-h2 {
-  padding-top: 7px;
+h1, h2 {
+  padding-top: 0px;
 }
 
 .text-justify {
   text-align: justify;
 }
 
+//callout
+
+.borders {
+  border:1px solid #e2e2e2;
+}
+.top-border { border-top:1px solid #e2e2e2;}
+.right-border {border-right:1px solid #e2e2e2;}
+
+.padding-inner-top {padding-top: 12px;}
+.padding-inner-bottom {padding-bottom: 5px;}
+
+.alert {
+   background-color:#f9f9f9 !important;
+}
+
+//footer
+.footer-black {
+  background-color: #333333 !important ;
+  height: 200px;
+}
+.footer-black a {
+  line-height: 1.5;
+}
+.footer-black p {
+  padding-top: 8px;
+}
 .btn-footer {
   background: #ffffff;
 }
-.footer-black h2 {
-  padding-top: 0px;
-}
-.footer-img {
-  padding-right: 18px !important;
-}
-.link-center {
-  text-align: center;
+.btn-padding {
+  padding-left: 0 !important;
+  padding-right: 20px !important ;
 }

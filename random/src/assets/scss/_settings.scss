@@ -19,21 +19,21 @@
 $primary-color: #2199e8;
 $secondary-color: #5e81a8;
 $success-color:  #fefefe;
-$warning-color: #ffae00;
-$alert-color: #ec5840;
+$warning-color: #ffde70;
+$alert-color: #f9f9f9;
 $light-gray: #f3f3f3;
 $medium-gray: #808080;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
-$white: #fefefe;
+$white: #ffffff;
 $pre-color: #ff6908;
-$global-width: 460px;
+$global-width: 450px;
 $global-width-small: 95%;
-$global-gutter: 3px;
+$global-gutter: 0px;
 $body-background: $white;
 $container-background: $white;
-$global-padding: 2px;
-$global-margin: 10px;
+$global-padding: 0px;
+$global-margin: 0px;
 $global-radius: 3px;
 $global-rounded: 200px;
 $global-breakpoint: $global-width + $global-gutter;
@@ -72,7 +72,7 @@ $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$paragraph-margin-bottom: 14px;
 $small-font-size: 90%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -128,7 +128,7 @@ $callout-border: 1px solid #e2e2e2;
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);
-$callout-border-alert: 1px solid darken($alert-color, 20%);
+$callout-border-alert: none;
 
 // 7. Menu
 // -------
