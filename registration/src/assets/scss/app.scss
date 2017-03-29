@@ -37,8 +37,18 @@ a {
   color: #ffffff !important;
 }
 .padding-img {
-  padding-left: 20px !important;
+  padding-left: 10px !important;
 }
+.avatar {
+  padding:11px ;
+  border: 2px solid #f1f1f1
+}
+.email {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+//button
 .btn {
   min-width: 100px !important;
   width: 225px;
