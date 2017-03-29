@@ -52,15 +52,15 @@ table, tr, td {
 @media only screen {
   html {
     min-height: 100%;
-    background: #fefefe; } }
+    background: #ffffff; } }
 
 table.body {
-  background: #fefefe;
+  background: #ffffff;
   height: 100%;
   width: 100%; }
 
 table.container {
-  background: #fefefe;
+  background: #ffffff;
   width: 460px;
   margin: 0 auto;
   Margin: 0 auto;
@@ -213,17 +213,11 @@ h2.text-center,
 h3.text-center,
 h4.text-center,
 h5.text-center,
-p.text-center,
-span.text-center {
+p.text-center {
   text-align: center; }
 
 p.text-right {
   text-align: right; }
-
-span.text-center {
-  display: block;
-  width: 100%;
-  text-align: center; }
 
 @media only screen and (max-width: 463px) {
   .small-float-center {
@@ -334,7 +328,7 @@ span.preheader {
   visibility: hidden;
   mso-hide: all !important;
   font-size: 1px;
-  color: #fefefe;
+  color: #ffffff;
   line-height: 1px;
   max-height: 0px;
   max-width: 0px;
@@ -377,23 +371,27 @@ table.button.large table tr td a:visited {
 
 table.button.small table td,
 table.button.small table a {
-  padding: 4px 10px 4px 10px;
+  padding: 4px 5px 4px 5px;
   font-size: 16px; }
 
 table.button.large table a {
   padding: 15px 10px 15px 10px;
   font-size: 20px; }
 
-table.button.expand {
+table.button.expand,
+table.button.expanded {
   width: 100% !important; }
-  table.button.expand table {
+  table.button.expand table,
+  table.button.expanded table {
     width: 100%; }
-    table.button.expand table a {
+    table.button.expand table a,
+    table.button.expanded table a {
       text-align: center;
       width: 100%;
       padding-left: 0;
       padding-right: 0; }
-  table.button.expand center {
+  table.button.expand center,
+  table.button.expanded center {
     min-width: 0; }
 
 table.button:hover table td,
@@ -578,11 +576,6 @@ a {
   width: 440px;
   display: inline-block; }
 
-.test {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
-
 .footer-black {
   background-color: #333333 !important;
   height: 330px; }
@@ -594,8 +587,13 @@ a {
   padding-bottom: 20px !important; }
 
 .small-btn {
-  min-width: 80px !important;
+  min-width: 100px !important;
   width: 105px; }
+
+.small-btn p {
+  margin-bottom: 0px;
+  Margin-bottom: 0px;
+  font-size: 16px; }
 
 .btn {
   min-width: 100px !important;
@@ -623,6 +621,3 @@ h2 {
 
 .footer-img {
   padding-right: 18px !important; }
-
-.link-center {
-  text-align: center; }
