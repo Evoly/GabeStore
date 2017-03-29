@@ -35,7 +35,7 @@ $container-background: $white;
 $global-padding: 2px;
 $global-margin: 10px;
 $global-radius: 3px;
-$global-rounded: 500px;
+$global-rounded: 100px;
 $global-breakpoint: $global-width + $global-gutter;
 $grey: #f9f9f9;
 $yellow: #ffc400;
@@ -100,13 +100,13 @@ $button-padding: (
   tiny: 4px 8px 4px 8px,
   small:  4px 10px 4px 10px,
   default: 13px 20px 13px 20px,
-  large: 15px 10px 15px 10px,
+  large: 15px 35px 15px 35px,
 );
 $button-font-size: (
   tiny: 10px,
   small: 16px,
   default: 18px,
-  large: 20px,
+  large: 24px,
 );
 $button-color: $black;
 $button-color-alt: $medium-gray;

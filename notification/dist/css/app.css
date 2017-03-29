@@ -84,12 +84,26 @@ th.columns {
   Margin: 0 auto;
   padding-left: 3px;
   padding-bottom: 2px; }
+  th.columns .columns {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
 
 th.columns.last {
   padding-right: 3px; }
 
 th.columns table:not(.button) {
   width: 100%; }
+
+th.large-5 {
+  width: 188.66667px;
+  padding-left: 1.5px;
+  padding-right: 1.5px; }
+
+th.large-5.last {
+  padding-right: 3px; }
+
+.body .columns th.large-5 {
+  width: 41.66667%; }
 
 th.large-6 {
   width: 227px;
@@ -105,6 +119,17 @@ th.large-6.last {
 th.large-6 center {
   min-width: 221px; }
 
+th.large-7 {
+  width: 265.33333px;
+  padding-left: 1.5px;
+  padding-right: 1.5px; }
+
+th.large-7.first {
+  padding-left: 3px; }
+
+.body .columns th.large-7 {
+  width: 58.33333%; }
+
 th.large-12 {
   width: 457px;
   padding-left: 1.5px;
@@ -119,6 +144,7 @@ th.large-12.last {
 th.large-12 center {
   min-width: 451px; }
 
+td.expander,
 th.expander {
   visibility: hidden;
   width: 0;
@@ -128,6 +154,10 @@ h1.text-center,
 h2.text-center,
 p.text-center {
   text-align: center; }
+
+img.float-left {
+  float: left;
+  text-align: left; }
 
 img.float-center {
   margin: 0 auto;
@@ -234,13 +264,32 @@ table.button {
       border: 0 solid #ffc400;
       border-radius: 3px; }
   table.button.rounded table td {
-    border-radius: 500px;
+    border-radius: 100px;
     border: none; }
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
-table.button table tr td a:visited {
+table.button table tr td a:visited,
+table.button.large:hover table tr td a,
+table.button.large:active table tr td a,
+table.button.large table tr td a:visited {
   color: #0a0a0a; }
+
+table.button.large table a {
+  padding: 15px 35px 15px 35px;
+  font-size: 24px; }
+
+table.button.expanded {
+  width: 100% !important; }
+  table.button.expanded table {
+    width: 100%; }
+    table.button.expanded table a {
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0; }
+  table.button.expanded center {
+    min-width: 0; }
 
 table.button:hover table td,
 table.button:visited table td,
@@ -303,8 +352,17 @@ th.callout-inner {
     box-sizing: border-box;
     padding-left: 3px !important;
     padding-right: 3px !important; }
+    table.body .columns .columns {
+      padding-left: 0 !important;
+      padding-right: 0 !important; }
+  th.small-6 {
+    display: inline-block !important;
+    width: 50% !important; }
   th.small-12 {
     display: inline-block !important;
+    width: 100% !important; }
+  .columns th.small-12 {
+    display: block !important;
     width: 100% !important; } }
 
 body,
@@ -327,10 +385,27 @@ h1 {
   margin-bottom: 5px !important; }
 
 .padding-sale {
-  padding-left: 30px !important; }
+  padding-left: 40px !important; }
 
-.padding-buy img {
-  margin-left: 0px !important; }
+.text-sale {
+  color: #5c883f !important;
+  font-size: 14px !important;
+  margin-bottom: 0 !important; }
+
+.text-price {
+  font-size: 33px !important;
+  margin-bottom: 0 !important; }
+
+.text-price-wrap {
+  padding-bottom: 0px !important; }
+
+.text-old-price {
+  color: #f32e2e;
+  text-decoration: line-through;
+  margin-bottom: 5px !important; }
+
+.padding-img {
+  padding-right: 16px; }
 
 .hr {
   border-top: 1px solid #e2e2e2; }
@@ -356,3 +431,7 @@ h1 {
 .btn-padding {
   padding-left: 0 !important;
   padding-right: 20px !important; }
+
+.footer-black p a {
+  font-size: 16px !important;
+  color: #808080 !important; }

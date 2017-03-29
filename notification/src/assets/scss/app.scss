@@ -12,11 +12,35 @@
     margin-bottom: 5px !important;
   }
 .padding-sale {
-  padding-left: 30px !important;
+  padding-left: 40px !important;
 }
-.padding-buy img{
-  margin-left: 0px !important;
+.text-sale {
+  color: #5c883f !important;
+  font-size: 14px !important;
+  margin-bottom: 0 !important;
 }
+.text-price {
+  font-size: 33px !important;
+  margin-bottom: 0 !important;
+  }
+  .text-price-wrap {
+    padding-bottom: 0px !important;;
+  }
+.text-old-price {
+  color: #f32e2e;
+  text-decoration: line-through;
+  margin-bottom: 5px !important;
+}
+.padding-img {
+  padding-right: 16px;
+}
+
+// .padding-buy img{
+//   margin-left: 0px !important;
+// }
+
+
+//content
 .hr {border-top: 1px solid #e2e2e2;}
 .text-callout {
   padding-left: 30px;
@@ -47,4 +71,9 @@
 }
 button .btn-vk {
   color: #ffffff !important;
+  background-color: #5e81a8;
+}
+.footer-black p a{
+  font-size: 16px !important;
+  color: #808080 !important;
 }
