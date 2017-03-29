@@ -119,6 +119,7 @@ th.large-12.last {
 th.large-12 center {
   min-width: 471px; }
 
+td.expander,
 th.expander {
   visibility: hidden;
   width: 0;
@@ -187,8 +188,8 @@ p {
   Margin-bottom: 0px; }
 
 small {
-  font-size: 80%;
-  color: #cacaca; }
+  font-size: 90%;
+  color: #808080; }
 
 a {
   color: #2199e8;
@@ -246,6 +247,18 @@ table.button.large table tr td a:visited {
 table.button.large table a {
   padding: 15px 10px 15px 10px;
   font-size: 20px; }
+
+table.button.expanded {
+  width: 100% !important; }
+  table.button.expanded table {
+    width: 100%; }
+    table.button.expanded table a {
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0; }
+  table.button.expanded center {
+    min-width: 0; }
 
 table.button:hover table td,
 table.button:visited table td,
@@ -343,6 +356,9 @@ html,
   width: 600px !important;
   min-width: 600px !important;
   padding: 0 !important; }
+
+a {
+  color: inherit !important; }
 
 .date {
   font-size: 30px;

@@ -153,6 +153,7 @@ th.large-12.last {
 th.large-12 center {
   min-width: 450px; }
 
+td.expander,
 th.expander {
   visibility: hidden;
   width: 0;
@@ -281,8 +282,20 @@ table.button.small table tr td a:visited {
 
 table.button.small table td,
 table.button.small table a {
-  padding: 4px 10px 4px 10px;
+  padding: 3px 10px 3px 10px;
   font-size: 16px; }
+
+table.button.expanded {
+  width: 100% !important; }
+  table.button.expanded table {
+    width: 100%; }
+    table.button.expanded table a {
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0; }
+  table.button.expanded center {
+    min-width: 0; }
 
 table.button:hover table td,
 table.button:visited table td,
@@ -416,7 +429,11 @@ a {
 
 .small-btn {
   min-width: 100px !important;
-  width: 135px; }
+  width: 115px; }
+
+.small-btn p {
+  margin-bottom: 0px;
+  Margin-bottom: 0px; }
 
 .btn-padding {
   padding-right: 10px !important; }

@@ -216,8 +216,8 @@ p {
   Margin-bottom: 10px; }
 
 small {
-  font-size: 80%;
-  color: #cacaca; }
+  font-size: 90%;
+  color: #808080; }
 
 a {
   color: #2199e8;
@@ -431,7 +431,3 @@ h1 {
 .btn-padding {
   padding-left: 0 !important;
   padding-right: 20px !important; }
-
-.footer-black p a {
-  font-size: 16px !important;
-  color: #808080 !important; }
